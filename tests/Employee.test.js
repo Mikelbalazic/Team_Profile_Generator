@@ -18,13 +18,13 @@ expect(employee.name).toBe(name);
 
 test("Can set ID via getId()", () => {
 const testValue = 100;
-const employee = new Employee("Foo", testValue);
+const employee = new Employee("Mikel", testValue);
 expect(employee.getId()).toBe(testValue);
 });
 
 test("Can set email via getEmail()", () => {
 const testValue = "mikel.balazic@gmail.com";
-const employee = new Employee("Foo", 1, testValue);
+const employee = new Employee("Mikel", 1, testValue);
 expect(employee.getEmail()).toBe(testValue);
 });
 
