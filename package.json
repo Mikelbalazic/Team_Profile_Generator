@@ -1,0 +1,24 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "Team profile generator utilizing object oriented programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikelbalazic/Team_Profile_Generator.git"
+  },
+  "author": "Mikel Balazic mikel.balazic@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mikelbalazic/Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/Mikelbalazic/Team_Profile_Generator#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "inquirer": "^8.2.4",
+    "jest": "^27.5.1"
+  }
+}
